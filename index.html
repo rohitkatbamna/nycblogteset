@@ -2,13 +2,14 @@
 <html>
    <head lang="en">
       <link rel="stylesheet" href="style.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
    </head>
    <body> 
      <nav>
        <ul>
-         <li><a href="#blog">Blog</a></li>
-         <li><a href="#media">Media</a></li>
-         <li><a href="#about">About</a></li>
+         <li><button type="button" class="btn btn-primary"><a href="#blog">Blog</a></button></li>
+         <li><button type="button" class="btn btn-secondary"><a href="#media">Media</a></button></li>
+         <li><button type="button" class="btn btn-success"><a href="#about">About</a></button></li>
        </ul>
      </nav>
      <header><h1>New York City</h1></header>
@@ -47,7 +48,7 @@
        <audio src="https://content.codecademy.com/courses/Semantic%20HTML/nyc-sounds.mov" controls></audio>
       </section>
      </main>
-     <footer>
+     <footer id="about">
        <p>Posted by:rohit</p>
        <p>Contact information: Blogger@NYC.com</p>
      </footer>
